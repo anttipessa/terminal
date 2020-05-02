@@ -2,7 +2,22 @@
 
 The program simulates a simple terminal. Coursework for Olio-Ohjelmoinnin perusteet 2, spring 2019. Unfortunately the program and its comments are in Finnish, because it was a requirement for the course.
 
-## Commands:
+## Install
+
+Clone the repository and run in command prompt/terminal
+```
+javac harjoitustyo/Oope2HT.java
+java harjoitustyo/Oope2HT
+```
+
+## Docker 
+
+```
+docker build -t terminal .
+docker run -it  terminal
+```
+
+## Commands
 
 - md &lt;name&gt;
     - Creates a directory with &lt;name&gt;
